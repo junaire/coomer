@@ -1,18 +1,11 @@
-#include <GL/gl.h>
 #include <GL/glx.h>
 #include <GLES3/gl3.h>
-#include <optional>
 
 #include <X11/X.h>
-#include <X11/Xlib.h>
-#include <X11/Xutil.h>
-#include <X11/extensions/XShm.h>
 #include <X11/extensions/Xrandr.h>
-#include <algorithm>
 #include <cassert>
 #include <cmath>
 #include <iostream>
-#include <ostream>
 #include <string>
 
 constexpr auto INITIAL_FL_DELTA_RADIUS = 250.0;
