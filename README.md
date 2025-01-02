@@ -21,5 +21,6 @@ g++ coomer.cpp -lGL -lGLU -lX11 -lXrandr -lXext -o coomer
 | <kbd>-</kbd>, Scroll down           | Zoom out                                      |
 | <kbd>0</kbd>                        | Reset scale, delta scale, position & velocity |
 | <kbd>f</kbd>                        | Toggle flashlight                             |
+| Control + scroll                    | Change flashlight radius                      |
 | <kbd>q</kbd>, <kbd/>ESC<kbd/>       | Quit coomer                                   |
 | Left click drag                     | Move the desktop 'image'                      |
