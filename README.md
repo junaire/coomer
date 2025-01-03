@@ -13,3 +13,14 @@ sudo apt-get install build-essential libgl1-mesa-dev libx11-dev libxext-dev libx
 ```bash
 g++ coomer.cpp -lGL -lGLU -lX11 -lXrandr -lXext -o coomer
 ```
+## Controls
+
+| Key                                 | Description                                   |
+| ----------------------------------- | --------------------------------------------- |
+| <kbd>=</kbd>, Scroll up             | Zoom in                                       |
+| <kbd>-</kbd>, Scroll down           | Zoom out                                      |
+| <kbd>0</kbd>                        | Reset scale, delta scale, position & velocity |
+| <kbd>f</kbd>                        | Toggle flashlight                             |
+| Control + scroll                    | Change flashlight radius                      |
+| <kbd>q</kbd>, <kbd/>ESC<kbd/>       | Quit coomer                                   |
+| Left click drag                     | Move the desktop 'image'                      |
